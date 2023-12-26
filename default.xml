@@ -39,6 +39,10 @@
            fetch="https://gitlab.com/ThankYouMario"
            revision="vauxite" />
 
+  <remote  name="doc"
+           fetch="https://github.com/TheDoctor12"
+           revision="vauxite" />
+
   <remote  name="github"
            fetch="https://github.com" />
 
@@ -58,6 +62,10 @@
 
   <remote  name="aospa-op12"
            fetch="https://github.com/aospa-op12"
+           revision="vauxite" />
+
+  <remote  name="faiz"
+           fetch="https://github.com/pa-faiz"
            revision="vauxite" />
 
   <include name="aosp.xml"/>
