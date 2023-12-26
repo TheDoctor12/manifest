@@ -39,6 +39,10 @@
            fetch="https://gitlab.com/ThankYouMario"
            revision="beryl" />
 
+  <remote  name="doc"
+           fetch="https://github.com/TheDoctor12"
+           revision="beryl" />
+
   <remote  name="github"
            fetch="https://github.com" />
 
@@ -54,6 +58,10 @@
 
   <remote  name="blobs-pnm"
            fetch="https://gitlab.com/peternmuller"
+           revision="vauxite" />
+
+  <remote  name="faiz"
+           fetch="https://github.com/pa-faiz"
            revision="vauxite" />
 
   <include name="aosp.xml"/>
