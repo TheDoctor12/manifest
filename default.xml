@@ -55,4 +55,7 @@
   <include name="aospa.xml"/>
   <include name="obsolete.xml"/>
 
+  <!-- MISC -->
+  <include name="addons.xml"/>
+
 </manifest>
