@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- BCR -->
-  <project path="vendor/bcr" name="Chaitanyakm/vendor_bcr" remote="github" revision="main" clone-depth="1" />
+  <project path="vendor/bcr" name="Evolution-X/vendor_bcr" remote="github" revision="udc" clone-depth="1" />
 
   <!-- Chromium -->
   <project path="external/calyx/chromium" name="CalyxOS/platform_external_calyx_chromium" remote="gitlab" revision="android14" clone-depth="1" />
