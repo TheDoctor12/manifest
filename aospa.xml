@@ -74,7 +74,7 @@
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="aospa" />
   <remove-project name="platform/hardware/qcom/wlan" />
-  <project path="hardware/qcom/wlan" name="AOSPA/android_hardware_qcom_wlan" remote="aospa" />
+  <project path="hardware/qcom/wlan" name="AOSPA/android_hardware_qcom_wlan" remote="github" revision="vauxite-backup" />
   <remove-project name="platform/hardware/st/nfc" />
   <project path="hardware/st/nfc" name="AOSPA/android_hardware_st_nfc" remote="aospa" />
 
@@ -159,7 +159,7 @@
   <remove-project name="platform/vendor/qcom-opensource/vibrator" />
   <project path="vendor/qcom/opensource/vibrator" name="AOSPA/android_vendor_qcom-opensource_vibrator" remote="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/usb" />
-  <project path="vendor/qcom/opensource/usb" name="AOSPA/android_vendor_qcom-opensource_usb" remote="aospa" />
+  <project path="vendor/qcom/opensource/usb" name="AOSPA/android_vendor_qcom-opensource_usb" remote="github" revision="vauxite-backup" />
   <remove-project name="platform/hardware/qcom/thermal" />
   <project path="vendor/qcom/opensource/thermal-hal" name="AOSPA/android_hardware_qcom_thermal" remote="aospa" />
 
