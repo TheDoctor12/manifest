@@ -68,8 +68,6 @@
   <project path="packages/apps/ParanoidSystemUI" name="android_packages_apps_Paranoid_SystemUI" remote="pnm" />
   <remove-project name="AOSPA/android_packages_services_Telecomm" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="pnm" />
-  <remove-project name="platform/packages/modules/Connectivity" />
-  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="pnm" />
   <remove-project name="platform/packages/modules/Wifi" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="pnm" />
 
