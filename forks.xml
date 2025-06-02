@@ -91,15 +91,6 @@
   <remove-project name="proprietary_vendor_qcom_common" />
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="pnm" />
 
-  <!-- Vendor (QCOM QSSI) -->
-  <remove-project name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_display" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_commonsys-intf_display" remote="pnm" >
-    <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk" />
-    <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk" />
-  </project>
-  <remove-project name="AOSPA/android_vendor_qcom-opensource_display-commonsys" />
-  <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom-opensource_display-commonsys" remote="pnm" />
-
   <!-- Vendor (QCOM Vendor) -->
   <remove-project name="AOSPA/android_vendor_qcom-opensource_power" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom-opensource_power" remote="pnm" />
