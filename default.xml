@@ -56,6 +56,10 @@
            fetch="https://gitlab.com/peternmuller"
            revision="vauxite" />
 
+  <remote  name="aospa-op12"
+           fetch="https://github.com/aospa-op12"
+           revision="vauxite" />
+
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
   <include name="obsolete.xml"/>

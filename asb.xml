@@ -3,12 +3,12 @@
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/ManagedProvisioning" />
-  <project path="packages/apps/ManagedProvisioning" name="aospa-op12/android_packages_apps_ManagedProvisioning" remote="github" />
+  <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="aospa-op12" />
   <remove-project name="AOSPA/android_packages_modules_Bluetooth" />
-  <project path="packages/modules/Bluetooth" name="aospa-op12/android_packages_modules_Bluetooth" remote="github" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="aospa-op12" />
   <remove-project name="platform/packages/modules/Connectivity" />
-  <project path="packages/modules/Connectivity" name="aospa-op12/android_packages_modules_Connectivity" remote="github" />
+  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="aospa-op12" />
   <remove-project name="platform/packages/modules/Permission" />
-  <project path="packages/modules/Permission" name="aospa-op12/android_packages_modules_Permission" remote="github" />
+  <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="aospa-op12" />
 
 </manifest>
