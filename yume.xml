@@ -62,10 +62,6 @@
   <project path="vendor/google/gms" name="aospa-pipa/android_vendor_google_gms" remote="aospa" clone-depth="1" />
   <remove-project name="android_vendor_google_pixel" />
   <project path="vendor/google/pixel" name="aospa-pipa/android_vendor_google_pixel" remote="aospa" clone-depth="1" />
-  <remove-project name="AOSPA/android_vendor_aospa" />
-  <project path="vendor/aospa" name="aospa-pipa/android_vendor_aospa" remote="aospa" >
-    <linkfile src="build.sh" dest="rom-build.sh" />
-  </project>
   <remove-project name="AOSPA/android_vendor_aospa_translations" />
   <project path="vendor/aospa/translations" name="aospa-pipa/android_vendor_aospa_translations" remote="aospa" />
 

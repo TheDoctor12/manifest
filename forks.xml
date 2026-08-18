@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Bootable -->
+  <remove-project name="AOSPA/android_bootable_recovery" />
+  <project path="bootable/recovery" name="TheDoctor12/android_bootable_recovery" remote="github" revision="calcite" />
+
+  <!-- Device -->
+  <remove-project name="AOSPA/android_kernel_build" />
+  <project path="device/qcom/kernelscripts" name="aospa-sm8250/android_kernel_build" remote="aospa" >
+    <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk"/>
+  </project>
+
+  <!-- Manifest -->
+  <remove-project name="AOSPA/manifest" />
+  <project path="manifest" name="TheDoctor12/manifest" remote="github" revision="calcite" />
+
+  <!-- Vendor (AOSPA) -->
+  <remove-project name="AOSPA/android_vendor_aospa" />
+  <project path="vendor/aospa" name="TheDoctor12/android_vendor_aospa" remote="github" revision="calcite" >
+    <linkfile src="build.sh" dest="rom-build.sh" />
+  </project>
+
+  <!-- Vendor (QCOM Vendor) -->
+  <remove-project name="AOSPA/android_vendor_nxp_opensource_keymaster" />
+  <project path="vendor/nxp/opensource/keymaster" name="TheDoctor12/android_vendor_nxp_opensource_keymaster" remote="github" revision="calcite" />
+  <remove-project name="AOSPA/android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy" name="TheDoctor12/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="github" revision="calcite-legacy" />
+
+</manifest>
